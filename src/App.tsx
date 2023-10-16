@@ -4,6 +4,7 @@ import { HeaderContainer } from "./containers/header/HeaderContainer";
 import GreetingSection from "./containers/GreetingSection/GreetingSection";
 import AboutMeSection from "./containers/AboutMeSection/AboutMeSection";
 import StackSection from "./containers/StackSection/StackSection";
+import ProjectsSection from "./containers/ProjectsSection/ProjectsSection";
 
 const App = (): JSX.Element => {
   return (
@@ -12,6 +13,7 @@ const App = (): JSX.Element => {
       <GreetingSection />
       <AboutMeSection />
       <StackSection />
+      <ProjectsSection />
     </>
   );
 };

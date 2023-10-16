@@ -8,6 +8,7 @@ type TextPropsType = {
   fontWeight: string;
   textAlign?: string;
   marginBottom: string;
+  height?: string;
 };
 
 export const Text = styled.p<TextPropsType>`
@@ -19,4 +20,5 @@ export const Text = styled.p<TextPropsType>`
   line-height: ${(props): string => props.lineHeight};
   text-align: ${(props): string => props.textAlign || "left"};
   margin-bottom: ${(props): string => props.marginBottom};
+  height: ${(props): string | undefined => props.height};
 `;

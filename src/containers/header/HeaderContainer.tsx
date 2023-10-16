@@ -31,7 +31,7 @@ export const HeaderContainer = (): JSX.Element => {
           <NavLink text="Home" url="#" />
           <NavLink text="About" url="#about-me" />
           <NavLink text="Tech Stack" url="#tech-stack" />
-          <NavLink text="Projects" url="#" />
+          <NavLink text="Projects" url="#projects" />
           <NavLink text="Contacts" url="#" />
         </List>
       </Nav>
