@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Title } from "../../components/Title/Title.styled";
 import theme from "../../style/ThemeStyles";
-import { Text } from "../../components/Text/Tegxt.styled";
+import { Text } from "../../components/Text/Text.styled";
 import WorkExperience from "../../components/WorkExperience/WorkExpirience";
 
 const AboutMe = styled.section`

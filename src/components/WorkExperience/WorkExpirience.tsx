@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Container } from "../Container/Container.styled";
-import { Text } from "../Text/Tegxt.styled";
+import { Text } from "../Text/Text.styled";
 import theme from "../../style/ThemeStyles";
 import { Button } from "../Button/Button.styled";
 import officeIcon from "../../assets/svg/building.svg";
