@@ -35,7 +35,7 @@ const IconsContainer = styled.div`
 
 const StackSection = (): JSX.Element => {
   return (
-    <Stack>
+    <Stack id="tech-stack">
       <Title
         color={theme.colors.titleColor}
         fontSize="28px"
