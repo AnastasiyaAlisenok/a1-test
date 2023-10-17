@@ -6,6 +6,7 @@ import AboutMeSection from "./containers/AboutMeSection/AboutMeSection";
 import StackSection from "./containers/StackSection/StackSection";
 import ProjectsSection from "./containers/ProjectsSection/ProjectsSection";
 import MailSection from "./containers/MailSection/MailSection";
+import Footer from "./containers/Footer/Footer";
 
 const App = (): JSX.Element => {
   return (
@@ -16,6 +17,7 @@ const App = (): JSX.Element => {
       <StackSection />
       <ProjectsSection />
       <MailSection />
+      <Footer />
     </>
   );
 };

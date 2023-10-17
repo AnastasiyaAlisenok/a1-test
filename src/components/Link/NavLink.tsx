@@ -14,6 +14,7 @@ const Link = styled.a`
   &:hover {
     color: ${theme.colors.titleColor};
     border-bottom: 2px solid ${theme.colors.titleColor};
+    transition: all 0.1s;
   }
 `;
 
