@@ -17,7 +17,7 @@ interface ProjectCardType {
 }
 
 const CardContainer = styled.div`
-  width: 18rem;
+  width: 16rem;
   border-radius: 20px;
   background: #fff;
   box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);

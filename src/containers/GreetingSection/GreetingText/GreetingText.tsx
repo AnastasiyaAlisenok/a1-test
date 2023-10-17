@@ -14,7 +14,7 @@ const TitleText = styled.h1`
   text-align: left;
 `;
 
-const GradientText = styled.span`
+export const GradientText = styled.span`
   background: var(
     --Gradient-Heading,
     linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%)
