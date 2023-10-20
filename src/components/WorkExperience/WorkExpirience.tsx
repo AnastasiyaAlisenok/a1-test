@@ -30,7 +30,7 @@ const WorkExperience: React.FC<WorkExperienceType> = ({
       <Container width="100%">
         <Text
           color={theme.colors.linkColor}
-          fontSize="18px"
+          fontSize="2rem"
           fontWeight="400"
           lineHeight="26px"
           marginBottom="0"
@@ -45,7 +45,7 @@ const WorkExperience: React.FC<WorkExperienceType> = ({
           <Icon src={officeIcon} alt="office=icon" />
           <Text
             color={theme.colors.lightColor}
-            fontSize="12px"
+            fontSize="1.2rem"
             fontWeight="500"
             lineHeight="28px"
             marginBottom="0"
@@ -58,7 +58,7 @@ const WorkExperience: React.FC<WorkExperienceType> = ({
           <Icon src={datesIcon} alt="calendar-dates=icon" />
           <Text
             color={theme.colors.lightColor}
-            fontSize="12px"
+            fontSize="1.2rem"
             fontWeight="500"
             lineHeight="28px"
             marginBottom="0"

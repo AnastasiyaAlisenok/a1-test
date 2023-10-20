@@ -12,6 +12,11 @@ const TitleText = styled.h1`
   line-height: 70px;
   letter-spacing: -1px;
   text-align: left;
+  @media (max-width: 1200px) {
+    width: 100%;
+    text-align: center;
+    margin-top: 85px;
+  }
 `;
 
 export const GradientText = styled.span`
@@ -28,7 +33,7 @@ export const GreetingText = (): JSX.Element => {
   return (
     <TitleText>
       Hi 👋, My name is <GradientText>Anastasiya Alisenok</GradientText>
-      <div>I build things for web</div>
+      <div>I am Frontend developer</div>
     </TitleText>
   );
 };

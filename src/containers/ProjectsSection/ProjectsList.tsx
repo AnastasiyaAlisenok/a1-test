@@ -11,8 +11,8 @@ export const projectsList = [
     text: "The final training task was created in the team. Application functionality: login page, registration page, favorite products, product catalog, shopping cart, routing.",
     imgSrc: wineProjectImg,
     stackText:
-      "TypeScript, React, Webpack, Eslint, Prettier, Husky, react-route-dom, react-hook-form, react-paginate, commertools API.",
-    deployLink: "https://allwine.netlify.app/",
+      "TypeScript, React, Webpack, Jest, Eslint, Prettier, Husky, react-route-dom, react-hook-form, react-paginate, commertools API.",
+    deployLink: "https://win4ik-store.netlify.app/",
     gitLink: "https://github.com/AnastasiyaAlisenok/eCommerce-Application",
   },
   {

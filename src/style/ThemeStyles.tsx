@@ -8,13 +8,13 @@ const theme = {
     hover: "#4b0266",
   },
   fontSize: {
-    bigText: "38px",
-    sectionTitle: "48px",
-    sectionSubTitle: "32px",
-    projectTitle: "28px",
-    link: "16px",
-    projectText: "18px",
-    smallText: "16px",
+    bigText: "5.8rem",
+    sectionTitle: "4.2rem",
+    sectionSubTitle: "3.2rem",
+    projectTitle: "2.8rem",
+    link: "1.6rem",
+    projectText: "1.8rem",
+    smallText: "1.6rem",
   },
 };
 

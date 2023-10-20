@@ -14,7 +14,7 @@ const contactsPath = {
 
 export const Contacts = (): JSX.Element => {
   return (
-    <Container width="13%">
+    <Container width="18%" width620="100%">
       <Contact path={contactsPath.git} image={git} alt="git-icon" />
       <Contact
         path={contactsPath.linkedin}

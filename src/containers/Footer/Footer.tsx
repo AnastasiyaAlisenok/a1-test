@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { Container } from "../../components/Container/Container.styled";
 import Logo from "../../components/Logo/Logo";
@@ -15,28 +15,38 @@ const Line = styled.p`
 `;
 
 const Footer = (): JSX.Element => {
+  const [active, setActive] = useState(false);
   return (
     <footer id="contacts">
       <Container width="100%">
         <Logo />
-        <Container width="70%">
+        <Container
+          width="70%"
+          flexDirection620="column"
+          width620="40%"
+          marginBottom1000="2rem"
+        >
           <Text
             color="#42446E"
-            fontSize="14px"
+            fontSize="1.4rem"
             fontWeight="400"
             lineHeight="22px"
             width="25%"
-            marginBottom="0"
+            marginBottom="5px"
+            textAlign="right"
+            width620="100%"
           >
             +375 29 771 61 36
           </Text>
           <Text
             color="#42446E"
-            fontSize="14px"
+            fontSize="1.4rem"
             fontWeight="400"
             lineHeight="22px"
             width="25%"
-            marginBottom="0"
+            marginBottom="5px"
+            textAlign="right"
+            width620="100%"
           >
             strelkinz1@yandex.ru
           </Text>
@@ -45,7 +55,7 @@ const Footer = (): JSX.Element => {
       </Container>
       <Line />
       <Container width="100%">
-        <NavList />
+        <NavList active={active} setActive={setActive} />
       </Container>
     </footer>
   );

@@ -7,14 +7,18 @@ import { projectsList } from "./ProjectsList";
 
 const SectionContainer = styled.section`
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 184px;
+  @media (max-width: 1000px) {
+    margin-bottom: 100px;
+  }
 `;
 
 const Projects = styled.div`
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 90px;
+  justify-content: space-evenly;
 `;
 
 const ProjectsSection = (): JSX.Element => {
@@ -22,18 +26,18 @@ const ProjectsSection = (): JSX.Element => {
     <SectionContainer id="projects">
       <Title
         color={theme.colors.titleColor}
-        fontSize="28px"
-        lineHeight="38px"
-        marginBottom="28px"
+        fontSize={theme.fontSize.sectionTitle}
+        lineHeight="26px"
+        marginBottom="49px"
         textAlign="center"
       >
         Projects
       </Title>
       <Title
         color={theme.colors.linkColor}
-        fontSize="24px"
+        fontSize={theme.fontSize.sectionSubTitle}
         lineHeight="26px"
-        marginBottom="70px"
+        marginBottom="110px"
         textAlign="center"
         fontWeight="400"
       >

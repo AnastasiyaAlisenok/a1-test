@@ -17,7 +17,10 @@ import vsCode from "../../assets/svg/vs-code.svg";
 
 const Stack = styled.section`
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 214px;
+  @media (max-width: 1000px) {
+    margin-bottom: 100px;
+  }
 `;
 
 const TechIcon = styled.img`
@@ -29,8 +32,8 @@ const IconsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  gap: 60px;
-  margin: 0 auto;
+  gap: 10rem;
+  justify-content: space-evenly;
 `;
 
 const StackSection = (): JSX.Element => {
@@ -38,18 +41,18 @@ const StackSection = (): JSX.Element => {
     <Stack id="tech-stack">
       <Title
         color={theme.colors.titleColor}
-        fontSize="28px"
-        lineHeight="38px"
-        marginBottom="28px"
+        fontSize={theme.fontSize.sectionTitle}
+        lineHeight="26px"
+        marginBottom="49px"
         textAlign="center"
       >
         My Tech Stack
       </Title>
       <Title
         color={theme.colors.linkColor}
-        fontSize="24px"
+        fontSize={theme.fontSize.sectionSubTitle}
         lineHeight="26px"
-        marginBottom="70px"
+        marginBottom="100px"
         textAlign="center"
         fontWeight="400"
       >

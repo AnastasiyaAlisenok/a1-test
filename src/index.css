@@ -5,7 +5,17 @@ code {
 
 #root {
   width: 100%;
-  padding: 41px 8% 60px 8%;
+  padding: 41px 14% 60px 14%;
+}
+@media (max-width: 1200px) {
+  #root {
+    padding: 41px 10% 60px 10%;
+  }
+}
+@media (max-width: 768px) {
+  #root {
+    padding: 41px 7% 60px 7%;
+  }
 }
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
 

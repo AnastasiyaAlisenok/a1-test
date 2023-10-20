@@ -9,6 +9,7 @@ type TextPropsType = {
   textAlign?: string;
   marginBottom: string;
   height?: string;
+  width620?: string;
 };
 
 export const Text = styled.p<TextPropsType>`
@@ -21,4 +22,7 @@ export const Text = styled.p<TextPropsType>`
   text-align: ${(props): string => props.textAlign || "left"};
   margin-bottom: ${(props): string => props.marginBottom};
   height: ${(props): string | undefined => props.height};
+  @media (max-width: 620px) {
+    width: ${(props): string => props.width620 || props.width};
+  }
 `;

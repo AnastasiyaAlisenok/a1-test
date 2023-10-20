@@ -17,10 +17,19 @@ interface ProjectCardType {
 }
 
 const CardContainer = styled.div`
-  width: 16rem;
+  width: 28rem;
   border-radius: 20px;
   background: #fff;
   box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+  &:hover {
+    box-shadow: 0px 1rem 2rem rgba(0, 0, 0, 0.3);
+  }
+  @media (max-width: 768px) {
+    width: 36rem;
+  }
+  @media (max-width: 500px) {
+    width: 32rem;
+  }
 `;
 
 const ProjectImg = styled.img`
@@ -29,7 +38,7 @@ const ProjectImg = styled.img`
 `;
 
 const TextContainer = styled.div`
-  padding: 20px;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
 `;
@@ -38,7 +47,7 @@ const TextBold = styled.div`
   width: 25%;
   color: ${theme.colors.titleColor};
   font-family: Poppins;
-  font-size: 10px;
+  font-size: 1rem;
   font-weight: 700;
   margin-bottom: 15px;
 `;
@@ -47,7 +56,7 @@ const Stack = styled.div`
   width: 70%;
   color: ${theme.colors.titleColor};
   font-family: Poppins;
-  font-size: 10px;
+  font-size: 1rem;
   font-weight: 400;
   text-align: justify;
 `;
@@ -55,7 +64,7 @@ const Stack = styled.div`
 const ProjectLink = styled.a`
   color: ${theme.colors.projectTitleColor};
   font-family: Poppins;
-  font-size: 12px;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 26px;
   text-decoration-line: underline;
@@ -83,7 +92,7 @@ const ProjectCard: React.FC<ProjectCardType> = ({
       <TextContainer>
         <Title
           color={theme.colors.projectTitleColor}
-          fontSize="18px"
+          fontSize={theme.fontSize.projectText}
           fontWeight="500"
           lineHeight="24px"
           marginBottom="15px"
@@ -92,7 +101,7 @@ const ProjectCard: React.FC<ProjectCardType> = ({
         </Title>
         <Text
           color={theme.colors.linkColor}
-          fontSize="14px"
+          fontSize="1.4rem"
           fontWeight="300"
           lineHeight="18px"
           marginBottom="10px"

@@ -18,7 +18,6 @@ const LogoStr = styled.div`
 const LogoContainer = styled.div`
   cursor: pointer;
   font-family: "DM Sans";
-  margin-right: 18%;
   &:hover ${LogoStr} {
     color: ${theme.colors.hover};
   }

@@ -7,8 +7,12 @@ import WorkExperience from "../../components/WorkExperience/WorkExpirience";
 
 const AboutMe = styled.section`
   width: 70%;
-  margin-top: 108px;
-  margin-bottom: 100px;
+  margin-top: 0;
+  margin-bottom: 200px;
+  @media (max-width: 1000px) {
+    width: 100%;
+    margin-bottom: 100px;
+  }
 `;
 
 const AboutMeSection = (): JSX.Element => {
@@ -16,15 +20,15 @@ const AboutMeSection = (): JSX.Element => {
     <AboutMe id="about-me">
       <Title
         color={theme.colors.titleColor}
-        fontSize="28px"
-        lineHeight="38px"
-        marginBottom="28px"
+        fontSize={theme.fontSize.sectionTitle}
+        lineHeight="52px"
+        marginBottom="38px"
       >
         About Me
       </Title>
       <Text
         color={theme.colors.linkColor}
-        fontSize="18px"
+        fontSize={theme.fontSize.projectText}
         fontWeight="400"
         lineHeight="26px"
         marginBottom="5px"
@@ -38,10 +42,10 @@ const AboutMeSection = (): JSX.Element => {
       </Text>
       <Text
         color={theme.colors.linkColor}
-        fontSize="18px"
+        fontSize={theme.fontSize.projectText}
         fontWeight="400"
         lineHeight="26px"
-        marginBottom="28px"
+        marginBottom="38px"
         width="100%"
         textAlign="justify"
       >
@@ -50,9 +54,9 @@ const AboutMeSection = (): JSX.Element => {
       </Text>
       <Title
         color={theme.colors.titleColor}
-        fontSize="28px"
-        lineHeight="38px"
-        marginBottom="28px"
+        fontSize={theme.fontSize.sectionTitle}
+        lineHeight="52px"
+        marginBottom="38px"
       >
         Work Experience
       </Title>
@@ -63,10 +67,10 @@ const AboutMeSection = (): JSX.Element => {
       />
       <Text
         color={theme.colors.lightColor}
-        fontSize="12px"
+        fontSize="1.2rem"
         fontWeight="500"
         lineHeight="16px"
-        marginBottom="28px"
+        marginBottom="38px"
         width="100%"
       >
         I never work as front-end developer, but you can look at my projects and
@@ -74,9 +78,9 @@ const AboutMeSection = (): JSX.Element => {
       </Text>
       <Title
         color={theme.colors.titleColor}
-        fontSize="28px"
-        lineHeight="38px"
-        marginBottom="28px"
+        fontSize={theme.fontSize.sectionTitle}
+        lineHeight="52px"
+        marginBottom="38px"
       >
         Education
       </Title>

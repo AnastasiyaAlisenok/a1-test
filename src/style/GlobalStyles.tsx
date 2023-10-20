@@ -12,6 +12,10 @@ const GlobalStyles = createGlobalStyle`
 
     html {
         scroll-behavior: smooth;
+        font-size: 10px;
+        @media (max-width: 768px) {
+            font-size: 8px;
+        }
     }
 
     a {
