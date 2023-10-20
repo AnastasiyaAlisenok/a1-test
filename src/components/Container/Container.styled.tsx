@@ -26,7 +26,7 @@ export const Container = styled.div<ContainerPropsType>`
       props.marginBottom1000 || props.marginBottom};
   }
   @media (max-width: 620px) {
-    width: ${(props): string | undefined => props.width620 || props.width1000};
+    width: ${(props): string | undefined => props.width620};
     flex-direction: ${(props): string | undefined => props.flexDirection620};
   }
 `;

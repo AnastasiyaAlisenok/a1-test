@@ -54,7 +54,7 @@ const WorkExperience: React.FC<WorkExperienceType> = ({
             {place}
           </Text>
         </Container>
-        <Container width="25%">
+        <Container width="25%" width620="35%">
           <Icon src={datesIcon} alt="calendar-dates=icon" />
           <Text
             color={theme.colors.lightColor}
