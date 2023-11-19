@@ -16,12 +16,13 @@ export const projectsList = [
     gitLink: "https://github.com/AnastasiyaAlisenok/eCommerce-Application",
   },
   {
-    title: "Async-race App",
-    text: "A simple game in which we can create cars, change their colors and names, and browse through the different cars page by page. Implemented race animation. Race winners are displayed on a separate page.",
+    title: "RSS-react project",
+    text: "Each branch of the repository shows the process of learning react.Starting with class components, then state, context, Redux and RTK Query. Also used component testing with jest.",
     imgSrc: asyncProjectImg,
-    stackText: "HTML, SASS, TypeScript, Webpack, Eslint, Prettier",
-    deployLink: "https://anastasiyaalisenok-async-race.netlify.app",
-    gitLink: "https://github.com/AnastasiyaAlisenok/async-race",
+    stackText:
+      "HTML, SASS, TypeScript, React, Redux Toolkit, RTK Query, Vite,  Jest, Eslint, Prettier, Husky",
+    deployLink: "https://anastasiyaalisenok-react-components.netlify.app",
+    gitLink: "https://github.com/AnastasiyaAlisenok/rss-react",
   },
   {
     title: "RSS-Selectors App",
