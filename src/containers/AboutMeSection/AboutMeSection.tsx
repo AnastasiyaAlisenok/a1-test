@@ -99,6 +99,11 @@ const AboutMeSection = (): JSX.Element => {
         place="Rolling Scope School"
         dates="Mar 2023 - Sep 2023"
       />
+      <WorkExperience
+        speciality="React course"
+        place="Rolling Scope School"
+        dates="Oct 2023 - pr.time"
+      />
     </AboutMe>
   );
 };
