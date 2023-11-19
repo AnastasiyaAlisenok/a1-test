@@ -14,6 +14,8 @@ import github from "../../assets/svg/github.svg";
 import eslint from "../../assets/img/eslint.png";
 import prettier from "../../assets/img/prettier.png";
 import vsCode from "../../assets/svg/vs-code.svg";
+import redux from "../../assets/svg/redux.svg";
+import jest from "../../assets/img/jest-logo.png";
 
 const Stack = styled.section`
   width: 100%;
@@ -64,6 +66,8 @@ const StackSection = (): JSX.Element => {
         <TechIcon src={js} alt="js-icon" />
         <TechIcon src={ts} alt="ts-icon" />
         <TechIcon src={reactImg} alt="react-icon" />
+        <TechIcon src={redux} alt="redux-icon" />
+        <TechIcon src={jest} alt="jest-icon" />
         <TechIcon src={sass} alt="sass-icon" />
         <TechIcon src={styledComponents} alt="styled-components-icon" />
         <TechIcon src={git} alt="git-icon" />
